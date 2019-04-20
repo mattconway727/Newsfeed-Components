@@ -28,4 +28,4 @@ class Article {
 
 let articles = document
   .querySelectorAll(".article")
-  .forEach(obj => new Article(obj));
+  .forEach(article => new Article(article));
